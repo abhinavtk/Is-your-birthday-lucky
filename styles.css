@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #8B5CF6;
+    --secondary-color: rgb(1, 1, 114);
+}
+
+body {
+    background-color: var(--primary-color);
+    color: white;
+}
+.container {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+input, label {
+    display: block;
+    margin:auto;
+   
+}
+
+input {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+#check-number {
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    
+}
