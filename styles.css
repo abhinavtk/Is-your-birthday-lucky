@@ -47,3 +47,7 @@ input {
 #output-txt {
     font-size:x-large;
 }
+#privacy-notice {
+    display: block;
+    margin: auto;
+}
