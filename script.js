@@ -16,8 +16,8 @@ function checkNumberIsLucky(){
 function calculateSum(dob){
     dob = dob.replaceAll("-","");
     let sum = 0;
-    for(let index of dob){  // when we have iterator,wecanuse for loop like this
-        sum += Number(index);   //Number(dob.charAt(index));
+    for(let index of dob){  
+        sum += Number(index);   
     }
     return sum;
 }
