@@ -3,7 +3,10 @@ const luckyNumber = document.querySelector("#lucky-no");
 const checkNumberButton = document.querySelector("#check-number");
 const outputText = document.querySelector("#output-txt");
 
+
+
 function checkNumberIsLucky(){
+
     const dob = dateOfBirth.value;
     const sum = calculateSum(dob);
     if (dob&&luckyNumber.value)
@@ -27,7 +30,7 @@ function compareValues(sum, luckyNumber){
         outputText.innerText = "Awesome!! Your birthday is Lucky!!! 😍😍";
     }
     else{
-        outputText.innerText = "Sorry :( Your birthday is not lucky!!! 🤔"
+        outputText.innerText = "Sorry :( Your birthday is not lucky!!! 😐😛"
     }
 }
 
